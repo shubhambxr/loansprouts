@@ -1,0 +1,18 @@
+.titleBorder{
+  border-bottom: 3px solid #ff6600;
+  max-width: 15%;
+  margin-top: 10px;
+}
+
+.titleBorder2{
+  border-bottom: 6px solid #ff6600;
+  max-width: 7%;
+  margin-top: -4px;
+}
+
+.clientContainer{
+  background-image: url("../public/assets/images/bg-clients.jpg");
+}
+.subClientContainer{
+  background-color: rgba(0, 0, 0, .7);
+}

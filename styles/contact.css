@@ -1,0 +1,64 @@
+.contact-box {
+    box-shadow: 0 0 16px 1px rgba(41, 41, 41, 0.08);
+  }
+  
+  .contact-box .form-control:focus {
+    box-shadow: none;
+    background-color: #f6f6f6;
+    border-color: #f3f3f3 #f3f3f3 #ff8700;
+  }
+  
+  .contact-box .form-control {
+    padding: 12px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    border-color: #ebebeb;
+    background-color: transparent;
+  }
+  
+  .contact-box .form-group {
+    margin-bottom: 22px;
+  }
+  
+  .contact-box .contact-icon {
+    border: 1px solid #bdbdbd;
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+    line-height: 48px;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  
+  .contact-box .follow-icon li {
+    margin: 0 3px !important;
+  }
+  
+  .contact-box .follow-icon li a {
+    background-color: transparent;
+    height: 38px;
+    width: 38px;
+    display: block;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 50px;
+    transition: all 0.5s;
+  }
+  
+  .contact-box .follow-icon li a:hover {
+    background-color: #ff8700;
+    color: #ffffff !important;
+    height: 38px;
+    width: 38px;
+    position: relative;
+    display: block;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0 0 0 6px rgba(255, 135, 0, 0.15);
+    transition: all 0.5s;
+  }
+
+  .app-contact-desc p {
+    overflow: hidden;
+  }

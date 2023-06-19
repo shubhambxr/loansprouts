@@ -1,0 +1,103 @@
+.divDate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .divDateSpan {
+    border-radius: 5px 0 0 5px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bordeRadius{
+    border-radius:  0 5px 5px 0;
+  }
+  .spanInputStyle {
+    padding: 0.2rem 0.3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    height: 50px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .containerDate {
+    display: flex;
+    gap: 10px;
+  }
+  
+  
+  
+  /*  It will only work when screen width is less than 850px */
+  @media screen and (max-width: 670px) {
+    .containerDate {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .loadBtnStyle {
+      display: flex;
+      justify-content: center;
+      margin-right: 20px;
+    }
+    .selectMargin{
+      display: flex;
+      flex-direction: column;
+      width: max-content;   
+      
+    }
+  }
+  
+  /*  It will only work when screen width is less than 850px */
+  @media screen and (max-width: 850px) {
+    .containerDate {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .mainContainerDate {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .loadBtnStyle {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 20px;
+    }
+    .selectMargin{
+      display: flex;
+      margin-left: 18px;
+      gap: 10px;
+    }
+  }
+  
+  /*  It will only work when screen width is greater than 850px */
+  
+  @media screen and (min-width: 850px) {
+    .mainContainerDate {
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    .selectMargin{
+      display: flex;
+      margin-left: 18px;
+      gap: 10px;
+    }
+    
+  }
+  
+  
+  
+  

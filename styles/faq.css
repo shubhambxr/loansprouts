@@ -1,0 +1,8 @@
+.faqPs .faqShowHide {
+    display: none;
+  } 
+  
+  .faqPs:hover .faqShowHide {
+    display: flex;
+  }
+  

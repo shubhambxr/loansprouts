@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Template Name: Zooki - Landing Page Template 
+   Author: Themesbrand
+   Version: 2.2.0
+   File Description: Main Css file of the template
+*/
+
+.titleBorder{
+  border-bottom: 3px solid #ff6600;
+  max-width: 15%;
+  margin-top: 10px;
+}
+
+.titleBorder2{
+  border-bottom: 6px solid #ff6600;
+  max-width: 7%;
+  margin-top: -4px;
+}
+.home-center {
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .home-desc-center {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .home-1-bg {
+    background-image: url("../public/assets/images/home-1-bg.png");
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+  }
+  
+  .home-1-shape {
+    position: absolute;
+    bottom: -1px;
+    padding: 0;
+    right: 0;
+    left: 0;
+  }
+  
+  .home-1-title {
+    z-index: 1;
+    position: relative;
+  }
+  
+  .home-2-bg {
+    background-image: url("../public/assets/images/home-2-bg.png");
+    background-color: #0e6cff;
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+  }
+  
+  .home-2-title {
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .home-2-img {
+    z-index: 1;
+    position: relative;
+  }
+  
+  .home-2-bottom-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+    opacity: 0.15;
+  }
+  
+  .mover-img {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+  }
+  .home-desc-center {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .btn {
+    padding: 14px 36px;
+    border: 1px solid;
+    font-size: 13px;
+    transition: all 0.5s;
+    border-radius: 4px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .btn-w {
+    padding: 14px 20px;
+  }
+  
+  .btn-sm {
+    padding: 10px 30px;
+    font-size: 12px;
+  }
+  
+  .btn-custom {
+    background: #ff8700;
+    color: #ffffff;
+    border-color: transparent;
+  }
+  
+  .btn-custom:hover,
+  .btn-custom:focus,
+  .btn-custom:active,
+  .btn-custom.active,
+  .btn-custom.focus,
+  .btn-custom:active,
+  .btn-custom:focus,
+  .btn-custom:hover,
+  .open > .dropdown-toggle.btn-custom {
+    outline: none;
+    text-decoration: none;
+    color: #ffffff;
+    transform: translateY(-3px);
+    text-decoration: none;
+    box-shadow: 0 3px 20px -8px #000;
+  }
+  
+  .btn-outline {
+    color: #ea0000;
+    border-color: #ea0000;
+  }
+  
+  .btn-outline:hover,
+  .btn-outline:focus,
+  .btn-outline:active,
+  .btn-outline.active,
+  .btn-outline.focus,
+  .btn-outline:active,
+  .btn-outline:focus,
+  .btn-outline:hover,
+  .open > .dropdown-toggle.btn-outline {
+    outline: none;
+    text-decoration: none;
+    color: #ffffff;
+    background: #ea0000;
+    transform: translateY(-3px);
+    box-shadow: 0 3px 20px -8px #000;
+  }
+  
+  .btn-custom-primary {
+    background: #ea0000;
+    color: #ffffff;
+    border-color: transparent;
+  }
+  
+  .btn-custom-primary:hover,
+  .btn-custom-primary:focus,
+  .btn-custom-primary:active,
+  .btn-custom-primary.active,
+  .btn-custom-primary.focus,
+  .btn-custom-primary:active,
+  .btn-custom-primary:focus,
+  .btn-custom-primary:hover,
+  .open > .dropdown-toggle.btn-custom-primary {
+    outline: none;
+    text-decoration: none;
+    color: #ffffff;
+    transform: translateY(-3px);
+    text-decoration: none;
+    box-shadow: 0 3px 20px -8px #000;
+  }
+
+  @-webkit-keyframes mover {
+    0% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-12px);
+      transform: translateY(-12px);
+    }
+  }
+  
+  @keyframes mover {
+    0% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-12px);
+      transform: translateY(-12px);
+    }
+  }
+  @-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+      transform: scale3D(1, 1, 1);
+    }
+    35% {
+      -webkit-transform: scale3D(0, 0, 1);
+      transform: scale3D(0, 0, 1);
+    }
+  }
+  
+  @keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+      transform: scale3D(1, 1, 1);
+    }
+    35% {
+      -webkit-transform: scale3D(0, 0, 1);
+      transform: scale3D(0, 0, 1);
+    }
+  }  

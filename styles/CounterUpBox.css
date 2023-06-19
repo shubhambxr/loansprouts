@@ -1,0 +1,47 @@
+.pe-auto:hover{
+    cursor: pointer;
+  }
+  .text-color{
+  color:'black'
+  }
+  
+  .counter
+  {
+      background-color: #f85b00;
+      text-align: center;
+  }
+  .employees,.customer,.design,.order
+  {
+      margin-top: 70px;
+      margin-bottom: 70px;
+  }
+  .counter-count
+  {
+      font-size: 18px;
+      background-color: #e70000;
+      border-radius: 50%;
+      position: relative;
+      color: #ffffff;
+      text-align: center;
+      line-height: 92px;
+      width: 92px;
+      height: 92px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      display: inline-block;
+  }
+  
+  .employee-p,.customer-p,.order-p,.design-p
+  {
+      font-size: 24px;
+      color: #000000;
+      line-height: 34px;
+  }
+  
+  /* CSS rules are kept repetitive so that you can get CSS rules for each button easily :) */
+  
+  .scrl{
+  overflow-x: auto;
+  }

@@ -1,0 +1,9 @@
+.bgOrange {
+  background-color: #ff6600;
+}
+
+@media (max-width: 991px) {
+  .homePgImg {
+    display: none;
+  }
+}
