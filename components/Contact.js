@@ -331,7 +331,8 @@ const Contact = () => {
                           <li className="list-inline-item f-15">
                             <a
                               target="_blank"
-                               href={`${process.env.REACT_APP_TWITTER_LINK}`}
+                               // href={`${process.env.REACT_APP_TWITTER_LINK}`}
+                               href="https://www.facebook.com/"
                               className="social-icon text-muted me-1"
                             >
                               <Image
@@ -345,7 +346,8 @@ const Contact = () => {
                           <li className="list-inline-item f-15">
                             <a
                               target="_blank"
-                              href={`${process.env.REACT_APP_GOOGLEPLUS_LINK}`}
+                              // href={`${process.env.REACT_APP_GOOGLEPLUS_LINK}`}
+                              href="https://www.facebook.com/"
                               className="social-icon text-muted me-1"
                             >
                               <Image
@@ -359,7 +361,8 @@ const Contact = () => {
                           <li className="list-inline-item f-15">
                             <a
                               target="_blank"
-                              href={`${process.env.REACT_APP_LINKEDIN_LINK}`}
+                              // href={`${process.env.REACT_APP_LINKEDIN_LINK}`}
+                              href="https://www.facebook.com/"
                               className="social-icon text-muted me-1"
                             >
                               <Image
@@ -372,7 +375,8 @@ const Contact = () => {
                           </li>
                           <li className="list-inline-item f-15">
                             <a
-                              href={`https://api.whatsapp.com/send?phone=${process.env.REACT_APP_WHATSAPP_NUMBER}&text=${process.env.REACT_APP_WHATSAPP_TEXT}`}
+                              // href={`https://api.whatsapp.com/send?phone=${process.env.REACT_APP_WHATSAPP_NUMBER}&text=${process.env.REACT_APP_WHATSAPP_TEXT}`}
+                              href="https://api.whatsapp.com/send?phone=919886461360&text=I need Loan Software"
                               className="social-icon text-muted me-1"
                               target="blank"
                             >
