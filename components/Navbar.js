@@ -20,7 +20,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Link from "next/link";
 import { useContext, useEffect } from "react";
 import AuthContext from "@/context/ApiAuth";
-import "../styles/navBar.css";
+import "@/styles/navBar.css";
 import Image from "next/image";
 const NavBar = (args) => {
   const { GetOutsideCompanyService, outsideCompanyService } =
