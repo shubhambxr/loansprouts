@@ -17,7 +17,7 @@ export const AuthProvider = ({ children }) => {
   // let sendToken = sessionStorage.getItem("token") != null ? sessionStorage.getItem("token").replaceAll('"', "") : "";
 
   const DSAloginHandle = async (payload) => {
-    let url = `https://api.loansprouts.com/api/CompanyAuthentication/Companylogin`;
+    let url = `https://loansprouts-cdm0zvlz6-shubhambxr.vercel.app/api/CompanyAuthentication/Companylogin`;
     let config = {
       headers: {
         authKey: "gdfgdfg5464545fdgdf^dfgdfg5464fdgdfg",
@@ -62,7 +62,7 @@ export const AuthProvider = ({ children }) => {
   const GetOutsideCompanyService = async () => {
     // const companyid = sendToken ? jwt_decode(sendToken).ID : "1";
     const companyid = 0;
-    let url = `https://api.loansprouts.com/api/ServicesAssignCompany/GetOutsideCompanyService?companyid=${companyid}&is_bool=0`;
+    let url = `https://loansprouts-cdm0zvlz6-shubhambxr.vercel.app/api/ServicesAssignCompany/GetOutsideCompanyService?companyid=${companyid}&is_bool=0`;
     let config = {
       headers: {
         authKey: "gdfgdfg5464545fdgdf^dfgdfg5464fdgdfg",
@@ -81,7 +81,7 @@ export const AuthProvider = ({ children }) => {
 
   const GetCityBySelectionAndId = async () => {
     const url =
-      "https://api.loansprouts.com/api/CityAssignCompany/GetCompanyCity?cid=1";
+      "https://loansprouts-cdm0zvlz6-shubhambxr.vercel.app/api/CityAssignCompany/GetCompanyCity?cid=1";
     let config = {
       headers: {
         authKey: "gdfgdfg5464545fdgdf^dfgdfg5464fdgdfg",
@@ -98,7 +98,7 @@ export const AuthProvider = ({ children }) => {
 
   const GetCityArea = async (cityId) => {
     const url =
-      `https://api.loansprouts.com/api/DistrictArea/GetAllAreabydistrict?dist=${cityId}`;
+      `https://loansprouts-cdm0zvlz6-shubhambxr.vercel.app/api/DistrictArea/GetAllAreabydistrict?dist=${cityId}`;
     let config = {
       headers: {
         authKey: "gdfgdfg5464545fdgdf^dfgdfg5464fdgdfg",
@@ -114,7 +114,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   const AplyLon = async (payload) => {
-    let url = `https://api.loansprouts.com/api/RequestApplyApplication/RequestApplyApplication`;
+    let url = `https://loansprouts-cdm0zvlz6-shubhambxr.vercel.app/api/RequestApplyApplication/RequestApplyApplication`;
     let config = {
       headers: {
         authKey: "gdfgdfg5464545fdgdf^dfgdfg5464fdgdfg",
